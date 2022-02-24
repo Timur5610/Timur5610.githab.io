@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "open sans", sans-serif;
+    margin: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(11, 160, 18);
+}
+
+.header-navigation {
+    padding: 10px 0;
+    color: white;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    float: right;
+}
+.menu-item {
+    display: inline-block;
+}
+.menu-link {
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-size: 16px;
+}
